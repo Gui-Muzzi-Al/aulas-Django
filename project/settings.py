@@ -119,6 +119,8 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 STATICFILES_DIRS = [BASE_DIR / "base" / "static"]
+# https://whitenoise.readthedocs.io/en/latest/
+STATIC_ROOT = BASE_DIR / "static_files"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
